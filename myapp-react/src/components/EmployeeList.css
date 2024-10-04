@@ -1,0 +1,32 @@
+/* src/components/EmployeeList.css */
+.employee-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .employee-item {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .employee-details {
+    flex: 1;
+  }
+  
+  .employee-actions {
+    margin-left: 20px;
+  }
+  
+  .employee-actions button {
+    margin-right: 10px;
+  }
+  
+  h3 {
+    margin: 0 0 5px;
+  }
+  

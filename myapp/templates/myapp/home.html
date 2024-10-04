@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+</head>
+<body>
+    <h1>Welcome to the Employee and Department Management System</h1>
+    <h2>Departments</h2>
+    <a href="{% url 'department_create' %}">Create Department</a><br>
+    <a href="{% url 'department_list' %}">View Departments</a><br>
+    <h2>Employees</h2>
+    <a href="{% url 'employee_create' %}">Create Employee</a><br>
+    <a href="{% url 'employee_list' %}">View Employees</a><br>
+</body>
+</html>

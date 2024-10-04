@@ -1,0 +1,40 @@
+/* src/components/EmployeeForm.css */
+.employee-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-row {
+    display: flex;
+    flex-wrap: wrap; /* Allows the items to wrap in case of smaller screens */
+    gap: 10px; /* Space between the input fields */
+    margin-bottom: 10px; /* Space below the row */
+  }
+  
+  input,
+  select,
+  textarea {
+    flex: 1; /* Allows inputs to grow and take equal space */
+    min-width: 150px; /* Set a minimum width for the input fields */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  textarea {
+    min-height: 50px; /* Set a minimum height for the textarea */
+  }
+  
+  button {
+    padding: 10px 15px;
+    background-color: #5c5e5f;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #5c5e5f;
+  }
+  
